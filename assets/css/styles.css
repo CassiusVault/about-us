@@ -1,0 +1,633 @@
+html{
+    smooth-scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: Bukra-light;
+    src: url('../Fonts/29LTBukra-Light.otf');
+}
+
+@font-face {
+    font-family: Bukra-regular;
+    src: url('../Fonts/29LTBukra-Regular.otf');
+}
+
+@font-face {
+    font-family: Bukra-bold;
+    src: url('../Fonts/29LTBukra-Bold.otf');
+}
+
+@font-face {
+    font-family: Bukra-bold-italic;
+    src: url('../Fonts/29LTBukra-BoldItalic.otf');
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.Vault-indent .container:first-child,.benefit-sections .container,.newsSectionPage,.sectionSpacer .container, .footer .container{
+    padding: 0px 50px;
+}
+
+p{
+    font-family:Bukra-regular;
+    font-size:18px;
+    text-align: left;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:Bukra-regular;
+    color: #44cc9b;
+    text-align: left;
+
+}
+
+.contextText{
+    text-align: left;
+}
+.contextText h5 {
+    font-weight: 600;
+    color: #003321;
+    margin-bottom: 20px;
+    min-height: 50px;
+}
+.logo{
+    width:200px;
+    margin-left:-20px;
+}
+a.nav-link.btn-header {
+    border: 2px solid #44cc9b;
+    border-radius: 20px;
+    padding: 9px 32px !important;
+    line-height: 1.7;
+    margin-top: -2px;
+    margin-left: 80px;
+    color:#44cc9b;
+    line-height: 1.5;
+    transition: background-color 0.3s;
+}
+a.nav-link.btn-header:hover{
+    background-color: #44cc9b;
+    border-color: #44cc9b;
+    color: #fff;
+}
+
+nav.navbar.navbar-expand-lg.navbar-transparent.bg-transparent {
+    background: transparent !important;
+    background-color: transparent !important;
+    display: inline;
+    position: absolute;
+    width: 100%;
+    z-index: 4000;
+    margin-top:20px;
+}
+.full-width-banner {
+    background: #fff;
+}
+.full-width-banner img{
+    margin-top:100px;
+}
+.vault-contents{
+    margin-top:300px;
+}
+.vault-contents h1{
+    font-family: Bukra-regular;
+    color:#44cc9b
+}
+
+.vault-contents p{
+    font-size: 20px;
+}
+.vault-contents h1{
+    font-size: 50px;
+    font-weight: 800;
+    margin-left: 0px;
+}
+.customBtn,.signIn{
+    background-color: #44cc9b;
+    color: #000;
+    border: 2px solid #44cc9b;
+    border-radius: 20px;
+    padding: 9px 32px !important;
+    transition: background-color 0.3s;
+    text-transform: uppercase;
+}
+.signIn{
+    margin-left: 10px !important;
+    color: #000 !important;
+}
+.signIn:hover{
+    background: #fff !important;
+    border-color: #44cc9b;
+    color: #44cc9b !important;
+}
+.customBtn:hover{
+    background: #fff;
+    border-color: #44cc9b;
+    color: #44cc9b;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    padding: 0px !important;
+}
+li.nav-item {
+    transition:all 0.3s ease-in-out;
+    padding-right: 20px;
+}
+li.nav-item a{
+    color:#000;
+    font-family: Bukra-regular;
+    font-weight:bold;
+    font-size:15px;
+
+}
+li.nav-item a:hover{
+    color: #44cc9b;
+}
+.dropdown-menu.show {
+    min-width: 50px;
+}
+
+
+.section-2{
+    padding:100px 50px;
+    background: #DCFFF2;
+}
+
+.section-2 h2 {
+    font-size: 35px;
+    font-family: Bukra-bold;
+    margin-bottom: 50px;
+    color: #003321;
+}
+.section-2 h3{
+    font-family: Bukra-regular;
+    margin-bottom: 50px;
+}
+.section-2-1{
+    margin-top:150px; 
+    margin-bottom:150px;
+    padding:0px 50px;
+}
+
+.section-2-1 h2{
+    margin-bottom: 20px;
+    font-family: Bukra-bold;
+    color: #003321;
+}
+
+.section-2-1 img{
+    /* max-width:500px; */
+    margin-left: 40px;
+    padding-bottom: 20px;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+.section-2-1 img:hover{
+    margin-top:-10px;
+    margin-bottom:10px;
+}
+.section-3 .container{
+    padding:0px 10px !important;
+    background: #DCFFF2;
+}
+.section-3 {
+    padding:100px;
+    background: #DCFFF2;
+}
+.section-2-1 img,.section-3 img{
+    border-radius: 50px;
+}
+
+
+.section-3 h2{
+    font-size:45px;
+    font-family: Bukra-regular;
+    
+}
+.section-3 h3{
+    font-family: Bukra-regular;
+    margin-bottom: 50px;
+    
+}
+
+.section-3 img{
+    margin-bottom:10px;
+    border-radius: 10px;
+}
+
+.newsHomeHeading{
+    font-family:Bukra-Bold !important;
+    color:#003321 ;
+}
+.newsleft
+{
+    padding-right:60px;
+}
+
+.news-image {
+    min-height: 270px;
+}
+.contextText p {
+    min-height: 150px;
+}
+.newsleft img{
+    max-height:300px;
+    max-width: 300px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+}
+
+.newsright img{
+    max-height:400px;
+    max-width: 400px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+}
+
+.card-title {
+    font-family:Bukra-bold;
+    color: #44cc9b;
+    text-align: left;
+}
+
+.card-header {
+    font-family:Bukra-bold;
+    color: #fff;
+    text-align: left;
+    background:  #003321;
+    padding:25px 20px;
+
+    }
+.benefit-sections.card-header {
+    background: #003321;
+    padding: 25px 20px;
+    font-family: Bukra-bold;
+}
+.section-subscription .card-header i{
+    color:#39e4ab !important;
+}
+.spacer
+{
+    padding-bottom: 100px;
+
+}
+
+.readmore i{
+    font-size:30px;
+}
+.readmore a {
+    background: #ffffff !important;
+    color: #003321 !important;
+    font-size: 14px;
+    border-radius: 50px !important;
+    padding: 15px 30px 16px 30px;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+}
+.readmore a:hover{
+    background: #44cc9b !important;
+    color: #000 !important;
+}
+.link-style{
+    color:#003321;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+    font-size: 16px;
+}
+.link-style:hover{
+    color: #39e4ab !important;
+}
+
+.page-heading-section {
+    padding-top: 190px !important;
+    padding-bottom: 50px !important;
+}
+
+.footer{
+    background: #44cc9b url('../img/Overlay.png') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-blend-mode:overlay;
+    background-attachment: fixed !important;
+    padding:80px 0px 80px 50px;
+    font-family:Bukra-regular;
+    font-size:16px;
+    text-align: left;
+    color: #ffffff;
+}
+.footer a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer .container {
+    padding: 0px 25px !important;
+}
+
+.footer h4{
+  
+    font-family:Bukra-bold;
+    font-size:18px;
+    text-align: left;
+    color: #ffffff;
+    }
+
+.footer{
+    font-family:Bukra-light;
+    font-size:18px;
+    text-align: left;
+    color: #ffffff;
+}
+.footer a{
+    color: #fff;
+   
+}
+.footer a:hover{
+    color: #003321 !important;
+}
+.footerBottom{
+    background: #013321 !important;
+    padding: 20px 0px !important;
+    color: #fff;
+    font-family:Bukra-regular;
+    font-size:18px;
+    text-align: center;
+}
+.card{
+    border: 1px solid #f7f7f7;
+}
+.card-title{
+    margin-bottom:20px;
+}
+.card-hover{
+    background: #fff;
+    transition: all 0.3s ease-in-out;
+}
+.card-hover:hover{
+    box-shadow: 0px 10px 10px 0px #58585857;
+    cursor:pointer;
+}
+.benefit-sections .card{
+    min-height: 580px;
+}
+.CTA-section h3{
+    color: #003321;
+    font-size: 40px;
+}
+.CTA-section p{
+    color: #003321;
+    font-size: 20px;
+}
+.CTA-section a{
+    font-family: Bukra-bold;
+}
+.priceSection {
+    background: #003321;
+    padding: 10px 20px;
+    border-radius: 0px;
+    color: #fff;
+    box-shadow: -1px 11px 10px -10px #585858bf;
+    margin-top:30px;
+}
+.priceSection p:first-child{
+    font-family: Bukra-bold !important;
+}
+.priceSection p:nth-child(2){
+    font-size: 14px;
+    font-family: Bukra-light;
+    margin-top:-15px;
+}
+.checkright{
+    color: #003321;
+    font-size: 20px;
+}
+.member {
+    padding: 35px 30px;
+    background-color: #fff;
+    border-radius: 0px 5px 5px 0px;
+    box-shadow: 0px 0px 10px 0px #58585857;
+    border-left: 7px solid #44cc9b;
+    min-height: 330px;
+}
+.member h4{
+    color: #003321;
+    margin-bottom: 10px;
+    font-family: Bukra-bold;
+}
+.member h5{
+    color: #39e4ab;
+    margin-bottom: 30px;
+}
+.member:nth-child(2){
+    min-height: 300px;
+}
+.homeBenefitsBgOverlay {
+    background: #DCFFF2 url(../img/home/Logo-17.png) !important;
+    background-position: 370px -90.2px !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+.contactus h5{
+    color: #003321;
+    font-family: Bukra-regular;
+}
+.muchMore{
+    background: #DCFFF2;
+    padding: 100px 0px;
+}
+
+.muchMore h2{
+    font-family: Bukra-bold;
+    color: #003321;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width:900px) and (min-width:768px){
+    .Vault-indent .container:first-child, .benefit-sections .container, .newsSectionPage, .sectionSpacer .container {
+        padding: 0px 0px;
+    }
+    .full-width-banner .col-md-5, .full-width-banner .col-md-7 {
+        min-width: 100%;
+    }
+    .vault-contents {
+        margin-top: 240px;
+    }
+    .full-width-banner img {
+        margin-top: -80px;
+    }
+    .homeBenefitsBgOverlay {
+        background-position: -560px -250.2px !important;
+        background-attachment: fixed !important;
+    }
+    .section-2-1 {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        padding: 0px 0px;
+    }
+    .alterImage {
+        border-radius: 20px !important;
+        padding: 0px !important;
+        min-width: 100%;
+        margin-top: 159px;
+        margin-left: 0px !important;
+    }
+    .section-3 {
+        padding: 90px 0px;
+    }
+    .section-3 h3 {
+        margin-bottom: 10px;
+    }
+    .news-image {
+        min-height: auto;
+        margin-bottom: 20px;
+    }
+    .readmore {
+        margin-top: 40px;
+    }
+    span.btnAlook {
+        display: none;
+    }
+    .footer {
+        padding: 50px 0px 50px 0px;
+    }
+    div#navbarNav {
+        background: #fff !important;
+        border-bottom: 4px solid #003321;
+        box-shadow: 0px 0px 12px 0px #00000017;
+        padding: 30px 20px;
+    } 
+    a.nav-link.btn-header.signIn {
+        margin-top: 20px;
+        margin-left: 0px !important;
+        text-align: center;
+    } 
+    .benefit-sections .col-md-4 {
+        min-width: 90vw !important;
+    }
+    .benefit-sections .card {
+        min-height: 350px;
+        margin-bottom: 50px;
+    }
+    .sectionSpacer.tabletCustomizable .col-md-6 {
+        min-width: 100%;
+    }
+    .member {
+        min-height: 400px;
+    }
+    .section-subscription .col-md-4 {
+        min-width: 100%;
+    }
+    .section-subscription .card-hover {
+        margin-bottom: 100px;
+    }
+    .priceSection {
+        background: #868686;
+    }
+    .newsleft img {
+        max-height: 100%;
+        max-width: 100%;
+        margin-bottom: 30px;
+        border-radius: 20px;
+        width: 100% !important;
+        height: auto;
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .logo {
+        margin-left: 0px;
+    }
+    .vault-contents {
+        margin-top: 200px;
+    }
+    .Vault-indent .container:first-child, .benefit-sections .container, .newsSectionPage, .sectionSpacer .container {
+        padding: 0px 20px;
+    }
+    .full-width-banner img {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .section-2 {
+        padding: 80px 0px;
+    }
+    .homeBenefitsBgOverlay {
+        background-position: -510px -10px !important;
+        background-attachment: fixed !important;
+    }
+    .section-2-1 {
+        margin-top: 70px;
+        margin-bottom: 70px;
+        padding: 0px 25px;
+    }
+    .customBtn, .signIn {
+        padding: 13px 20px !important;
+    }
+    .section-2-1 img, .section-3 img {
+        border-radius: 10px;
+        margin-left: 0px;
+        padding-bottom: 0px !important;
+    }
+    .section-3 {
+        padding: 60px 20px;
+    }
+    .news-image {
+        min-height: 200px;
+    }
+    .newsHomeHeading {
+        font-size: 30px;
+        margin-bottom: 10px !important;
+    }
+    .contextText {
+        text-align: left;
+        margin-bottom: 50px;
+    }
+    .contextText p {
+        min-height: auto;
+    }
+    .footer {
+        padding: 50px 20px 50px 20px;
+    }
+    .row.footer img {
+        margin-left: -20px;
+    }
+    nav.navbar.navbar-expand-lg.navbar-transparent.bg-transparent {
+        margin-top: 0px;
+    }
+    div#navbarNav {
+        background: #fff !important;
+        border-bottom: 4px solid #003321;
+        box-shadow: 0px 0px 12px 0px #00000017;
+        padding: 30px 20px;
+    }  
+    a.nav-link.btn-header.signIn {
+        margin-top: 20px;
+        margin-left: 0px !important;
+    }
+    .page-heading-section {
+        padding-top: 150px !important;
+        padding-bottom: 50px !important;
+    }
+    .newsleft {
+        padding-right: 20px;
+        margin-bottom: 50px;
+    }
+    img.img-fluid.news {
+        max-width: 100%;
+        min-width: 100%;
+    }
+    .section-subscription .card,.benefit-sections .card{
+        margin-bottom: 30px !important;
+    }
+    .member {
+        margin-bottom: 60px;
+    }
+    .teamSpace{
+        padding: 0px;
+    }
+} 
