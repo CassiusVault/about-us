@@ -8,5 +8,6 @@ if($route == "news"){
         include_once('views/components/layout.php');
     }
 }else{
-    include_once('views/components/layout.php');
+    include_once('views/comingsoon.php');
+    // include_once('views/components/layout.php');
 }

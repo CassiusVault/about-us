@@ -37,7 +37,7 @@
                             <h5 class="card-title">100% confidence in your database</h5>
                             <div class="card-text">
                                 <p>A stakeholder database maintained in Excel or Outlook can present multiple issues, at the very least an administrative headache. </p>
-                                <p>In addition, realistically, with all the best intentions, it is nigh impossible for an IR team to keep track of bounces and movements in your investor community.</p>
+                                <p>In addition, realistically, with all the best intentions, it is nigh on impossible for an IR team to keep track of bounces and movements their investor community.</p>
                                 <p> With Vault, you can expect your data to be 99.9% accurate at all times, thanks to a combination of software and human intervention.</p>
                             </div>
                         </div>

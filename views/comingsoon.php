@@ -11,19 +11,41 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="./assets/css/styles.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-    <title><?php echo $page; ?> | Vault</title>
+    <title><?php echo $page; ?> | The Vault</title>
+    <style>
+        body{
+            background:linear-gradient(180deg,rgb(233 233 233 / 50%),rgb(168 231 219 / 50%));
+        }
+    .landing{
+        height: 100vh;
+        align-items: center;
+        padding-top:25vh;
+    }
+    </style>
 </head>
 <body>
     <header>
-        <?php include_once 'header.php';?>
+        <!-- <?php include_once 'header.php';?> -->
     </header>
 
     <main>
-        <?php print($pageContent);?>
+        <div class="container-fluid landing">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <center><img src="./assets/img/Logo-svg.svg" alt="Coming Soon" class="img-fluid"></center>
+                        <br>
+                        <h1 class="text-center" style="color:#000;font-family:Bukra-bold">Website under maintenance</h1>
+                        <br>
+                        <p class="text-center">Something new and exciting coming soon</p>
+                    </div>
+                </div>  
+            </div>
+        </div>
     </main>
 
     <footer>
-        <?php include_once 'footer.php';?>
+        <!-- <?php include_once 'footer.php';?> -->
     </footer> 
 
     <!-- First, include Popper.js and jQuery -->

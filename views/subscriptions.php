@@ -29,7 +29,7 @@
                             <hr/>
                             <p> <i class="fa fa-check checkright"></i> Automatic branded stock exchange announcement alerts. </p>
                               <div class="priceSection">
-                                <p><strong>Monthly: &#163;320 </strong></p>
+                                <p><strong>Monthly: &#163; 320.00 </strong></p>
                                 <p>* Core is a required module</p>
                               </div>
                           </div>
@@ -56,7 +56,7 @@
                           <p><i class="fa fa-check checkright"></i> Dashboard with PDF download</p>
                           
                           <div class="priceSection">
-                              <p><strong>Monthly: &#163;165</strong></p>
+                              <p><strong>Monthly: &#163; 165.00</strong></p>
                           </div>
                       </div>
     
@@ -80,7 +80,7 @@
                             <hr/>
                             <p><i class="fa fa-check checkright"></i> XML website feeds for Calendar and Documents are an option, pricing is based on complexity required. </p>
                               <div class="priceSection">
-                                  <p><strong>Monthly: &#163;215</strong>
+                                  <p><strong>Monthly: &#163; 215.00</strong>
                               </div>
                         </div>
                       </div>
