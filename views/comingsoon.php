@@ -33,7 +33,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <center><img src="./assets/img/Logo-svg.svg" alt="Coming Soon" class="img-fluid"></center>
+                        <!-- <center><img src="./assets/img/Logo-svg.svg" alt="Coming Soon" class="img-fluid"></center> -->
                         <br>
                         <h1 class="text-center" style="color:#000;font-family:Bukra-bold">Website under maintenance</h1>
                         <br>
