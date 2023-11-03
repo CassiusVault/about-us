@@ -1,3 +1,6 @@
+<? 
+$page = 'Letter';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,17 +12,29 @@
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <!-- <link rel="stylesheet" href="./assets/css/styles.css" /> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <title><?php echo $page; ?> | The Vault</title>
     <style>
-        body{
-            background:linear-gradient(180deg,rgb(233 233 233 / 50%),rgb(168 231 219 / 50%));
-        }
+    body{
+        /* background:linear-gradient(180deg,rgb(233 233 233 / 50%),rgb(168 231 219 / 50%)); */
+        background: #fff;
+    }
+    h1, h2, h3, h4, h5, h6{
+        font-family: 'Arial', sans-serif;
+        color:#1E4C7B;
+    }
+    p {
+        font-family: 'Montserrat', sans-serif !important;
+        font-size: 18px;
+    }
     .landing{
         height: 100vh;
         align-items: center;
-        padding-top:25vh;
+        margin-top: 20px;
+    }
+    .landing .col-md-12 {
+        padding:0px 300px;
     }
     </style>
 </head>
@@ -33,11 +48,28 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <!-- <center><img src="./assets/img/Logo-svg.svg" alt="Coming Soon" class="img-fluid"></center> -->
+                        <img src="./assets/img/Logo - Vault.png" alt="Coming Soon" class="img-fluid" width="30%">
+                        <br><br>
+                        <h2 style="color:#000;">Thank you for visiting us.</h2>
                         <br>
-                        <h1 class="text-center" style="color:#000;font-family:Bukra-bold">Website under maintenance</h1>
+                        <p>It’s been nearly 10 great years since Vault launched. <br>
+                        Currently, we have over 36 000 users from the investment community, thousands of alerts being issued daily, and 80 top African listed companies as corporate subscribers.
                         <br>
-                        <p class="text-center">Something new and exciting coming soon</p>
+                            Having launched in India, we are preparing to expand to the Middle East. 
+                        </p>
+                        <h3>So what’s next?</h3>
+                        <p>Over the last few months we have taken time to revisit how we can best meet the needs of our clients and prospects.
+                        <br> Engaged with marketing and brand experts, we scratched our heads, and debated for hours.</p>
+                        <h3>The outcome?</h3>
+                        <p>A new strategic focus for the Vault offering and a fresh new brand.
+                            <br>
+                            Please be patient as the preparation for the brand launch takes place, targeted for early January 2024.
+                            <br>
+                            As always, you can <a href="mailto:athrossell@thevault.exchange">contact Ant if you need</a> more information.
+                        </p>
+                        <p>Regards</br>
+                            James, Ant, Cassius, Simon and the Vault team.
+                        </p>
                     </div>
                 </div>  
             </div>
