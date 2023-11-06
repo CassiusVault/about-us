@@ -36,6 +36,16 @@ $page = 'Letter';
     .landing .col-md-12 {
         padding:0px 300px;
     }
+    @media screen and (max-width:900) and (min-width:768px){
+        .landing .col-md-12 {
+           padding: 0px 20px;
+        }
+    }
+    @media screen and (max-width:768) and (min-width:0px){
+        .landing .col-md-12 {
+           padding: 0px 20px;
+        }
+    }
     </style>
 </head>
 <body>
