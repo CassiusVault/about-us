@@ -44,10 +44,10 @@ $page = 'Letter';
            padding: 0px 20px !important;
         }
         .logo{
-            width:50%;
+            width:40%;
         }
     }
-    @media screen and (max-width:768px) and (min-width:0px){
+    @media screen and (max-width:767px) and (min-width:0px){
         .landing .col-md-12 {
            padding: 0px 20px !important;
         }
