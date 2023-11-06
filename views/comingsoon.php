@@ -36,14 +36,23 @@ $page = 'Letter';
     .landing .col-md-12 {
         padding:0px 300px;
     }
+    .logo{
+        width:30%;
+    }
     @media screen and (max-width:900px) and (min-width:768px){
         .landing .col-md-12 {
            padding: 0px 20px !important;
+        }
+        .logo{
+            width:50%;
         }
     }
     @media screen and (max-width:768px) and (min-width:0px){
         .landing .col-md-12 {
            padding: 0px 20px !important;
+        }
+        .logo{
+            width:60%;
         }
     }
     </style>
@@ -58,7 +67,7 @@ $page = 'Letter';
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <img src="./assets/img/Logo - Vault.png" alt="Coming Soon" class="img-fluid" width="30%">
+                        <img src="./assets/img/Logo - Vault.png" alt="Coming Soon" class="img-fluid logo">
                         <br><br>
                         <h2 style="color:#000;">Thank you for visiting us.</h2>
                         <br>
