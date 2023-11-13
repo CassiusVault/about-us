@@ -33,6 +33,7 @@ $page = 'Letter';
         color:#fff;
         padding:10px 20px;
         text-decoration:none;
+        margin-bottom:10px;
     }
     .landing{
         height: 100vh;
