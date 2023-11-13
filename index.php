@@ -7,7 +7,11 @@ if($route == "news"){
     }else{
         include_once('views/components/layout.php');
     }
-}else{
+}elseif($route == "subscriptions")
+{
+    include_once('views/subscriptions.php');
+}
+else {
     include_once('views/comingsoon.php');
     // include_once('views/components/layout.php');
 }
