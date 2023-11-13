@@ -9,7 +9,7 @@ if($route == "news"){
     }
 }elseif($route == "subscriptions")
 {
-    include_once('subscriptions-vault.php');
+    include_once('views/subscriptions-vault.php');
 }
 else {
     include_once('views/comingsoon.php');
