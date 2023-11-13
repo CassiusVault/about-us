@@ -88,7 +88,7 @@ $page = 'Subscription';
             background: #36474f;
             color: #fff;
             padding: 50px 50px;
-            margin-top: 720px;
+            margin-top: 720px !important;
         }
     }
     @media screen and (max-width:767px) and (min-width:0px){
@@ -105,7 +105,7 @@ $page = 'Subscription';
             background: #36474f;
             color: #fff;
             padding: 50px 50px;
-            margin-top: 1280px;
+            margin-top: 1280px !important;
         }
     }
     </style>
