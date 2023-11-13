@@ -94,7 +94,7 @@ $page = 'Letter';
                             As always, you can <a href="mailto:athrossell@thevault.exchange">contact Ant if you need</a> more information.
                         </p>
                         <a href="./subscriptions" class="VaultBtn">Details on our current pricing </a>
-                        <p>Regards</br>
+                        <p style="margin-top:10px">Regards</br>
                             James, Ant, Cassius, Simon and the Vault team.
                         </p>
                     </div>
