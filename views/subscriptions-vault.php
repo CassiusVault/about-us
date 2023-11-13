@@ -81,8 +81,8 @@ $page = 'Subscription';
         }
         .col-md-4 {
             flex: 0 0 auto;
-            width: 100%;
-            margin-bottom: 20px;
+            width: 100% !important;
+            margin-bottom: 20px !important;
         }
         .CTA-section {
             background: #36474f;
@@ -99,7 +99,7 @@ $page = 'Subscription';
             width:60%;
         }
         .col-md-4 {
-            margin-bottom: 20px;
+            margin-bottom: 20px !important; 
         }
         .CTA-section {
             background: #36474f;
