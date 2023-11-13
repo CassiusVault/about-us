@@ -7,6 +7,11 @@ switch($route){
         $page = 'Home';
         $pageContent = file_get_contents('views/home.php');
          break;
+    case 'subscriptions':
+        $page = 'subscriptions';
+        $pageContent = file_get_contents('views/subscriptions-vault.php');
+         break;
+    
     case 'how-it-works':
         $page = 'How does it look';
         $pageContent = file_get_contents('views/how-it-works.php');
