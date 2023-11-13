@@ -100,7 +100,7 @@ $page = 'Subscription';
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <img src="./assets/img/Logo - Vault.png" alt="Coming Soon" class="img-fluid logo">
+                        <a href="/"><img src="./assets/img/Logo - Vault.png" alt="Coming Soon" class="img-fluid logo"></a>
                         <br><br>
                         <h1>Vault subscription options</h1>
                         <p>Select the modules best suited to your desired benefits and problem solving. </p>
