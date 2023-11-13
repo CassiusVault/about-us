@@ -79,6 +79,17 @@ $page = 'Subscription';
         .logo{
             width:40%;
         }
+        .col-md-4 {
+            flex: 0 0 auto;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .CTA-section {
+            background: #36474f;
+            color: #fff;
+            padding: 50px 50px;
+            margin-top: 720px;
+        }
     }
     @media screen and (max-width:767px) and (min-width:0px){
         .landing .col-md-12 {
@@ -86,6 +97,15 @@ $page = 'Subscription';
         }
         .logo{
             width:60%;
+        }
+        .col-md-4 {
+            margin-bottom: 20px;
+        }
+        .CTA-section {
+            background: #36474f;
+            color: #fff;
+            padding: 50px 50px;
+            margin-top: 1280px;
         }
     }
     </style>
