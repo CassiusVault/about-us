@@ -28,6 +28,11 @@ $page = 'Letter';
         font-family: 'Montserrat', sans-serif !important;
         font-size: 18px;
     }
+    .VaultBtn{
+        background: #36474f;
+        color:#fff;
+        padding:10px 20px;
+    }
     .landing{
         height: 100vh;
         align-items: center;
@@ -89,6 +94,7 @@ $page = 'Letter';
                         <p>Regards</br>
                             James, Ant, Cassius, Simon and the Vault team.
                         </p>
+                        <a href="./subscriptions" class="VaultBtn">Details on our current pricing </a>
                     </div>
                 </div>  
             </div>
