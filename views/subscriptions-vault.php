@@ -103,7 +103,7 @@ $page = 'Subscription';
         .CTA-section {
             background: #36474f;
             color: #fff;
-            padding: 50px 50px;
+            padding: 50px 20px;
             margin-top: 50px !important;
         }
     }
