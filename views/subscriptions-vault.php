@@ -29,7 +29,6 @@ $page = 'Subscription';
         font-size: 18px;
     }
     .landing{
-        height: 100vh;
         align-items: center;
         margin-top: 20px;
     }
@@ -43,7 +42,7 @@ $page = 'Subscription';
         background: #36474f;
         color:#fff;
         padding: 50px 160px;
-        margin-top: 350px;
+        margin-top: 50px;
     }
     .CTA-section h2{
         color:#fff;
@@ -88,7 +87,7 @@ $page = 'Subscription';
             background: #36474f;
             color: #fff;
             padding: 50px 50px;
-            margin-top: 720px !important;
+            margin-top: 20px !important;
         }
     }
     @media screen and (max-width:767px) and (min-width:0px){
@@ -105,7 +104,7 @@ $page = 'Subscription';
             background: #36474f;
             color: #fff;
             padding: 50px 50px;
-            margin-top: 1280px !important;
+            margin-top: 50px !important;
         }
     }
     </style>
